@@ -59,9 +59,9 @@ function fact(n)
     }
 }
 console.log(fact(5));
-const closureobj= function ()
+const closureobj= function (minimumbalance)
 {
-let balance=0;
+let balance=minimumbalance;
 function deposit(amount)
 {
     balance +=amount;
@@ -78,8 +78,9 @@ function getBalance()
 };
 return {deposit,debit,getBalance};
 }
-const closureref = closureobj();
+const closureref = closureobj(1000);
 console.log(closureref.getBalance());
+closureref.debit(500);
 (function(){
     console.log("immediate invoked function");
 })();
@@ -91,3 +92,8 @@ const me = {
         return "talking";
     }
 }
+function getBalance()
+{
+    return 100;
+}
+console.log(getBalance())
