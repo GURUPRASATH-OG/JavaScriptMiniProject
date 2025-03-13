@@ -1,0 +1,265 @@
+#red
+{
+    color:red;
+    background-color: rgb(179, 119, 119);
+    width:100px;
+    height:100px;
+    font-size:20x;
+    font-weight:900;  
+}
+
+#pink
+{
+    color:rgb(255, 254, 254);
+    background-color: rgb(238, 14, 219);
+    width:100px;
+    height:100px;
+
+    
+    
+}
+p{
+    margin:0;
+}
+
+#blue
+{
+    color:rgb(14, 174, 248);
+    background-color: rgb(14, 64, 230);
+    width:100px;
+    height:100px;  
+    margin: 50px 50px;
+    border-radius:20px;
+    position: relative;
+    
+}
+
+#black
+{
+    color:rgb(255, 252, 252);
+    background-color: rgb(0, 0, 0);
+    width:100px;
+    height:100px;
+    margin:0 5px;
+    text-transform: uppercase;
+    text-align:center;
+    border-radius:15px;
+    position:relative;
+    
+    top: 50px;
+    left:50px;
+    
+}
+#black:hover
+{
+    translate: 150px;
+    transition:ease-in-out 3s;
+    border-radius: 15px;
+}
+
+h1{
+    background-color: aqua;
+    height: 50px;
+    width:fit-content;    
+}
+
+h2{
+    background-color:chartreuse;
+    width: fit-content;
+    height: 50px;
+    
+
+}
+#p
+{
+    background-color:bisque;
+    border: 4px solid black;
+    padding:10px;
+    margin-top:10px;
+}
+
+.todo
+{
+    color:rgb(182, 25, 255);
+    background-color: rgb(253, 253, 253);
+
+}
+.box> p
+{
+    color:firebrick;
+}
+
+ .box > .list 
+{
+    color:blue;
+}
+
+li.done
+{
+    color:green;
+}
+.ul p.done
+{
+    font-size:1.5rem;
+}
+
+.red-box
+{
+    height: 300px;
+    width:500px;
+    background-color: rgb(255, 0, 0);
+    position:relative;
+    
+}
+.blue-circle
+{
+    height:200px;
+    width:200px;
+    background-color:blue;
+    position: relative;
+    border-radius: 100px;
+    top:190px;
+    left:290px;
+    
+    
+
+}
+.blue-circle:hover
+{
+    translate: 50px;
+    transition: 2s ;
+}
+.flag
+{
+
+    border-top:200px;
+    height: 250px;
+    background-color: rgb(226, 57, 57);
+    top:50px;
+    position:relative;
+    text-align:center;
+    font-size: 2rem;;
+}
+.flag >div
+{
+
+    top:80px;
+    position:absolute;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(39, 39, 100);
+}
+
+.flag > div > div
+{
+    background-color: white;
+    border-radius:100px;
+    height: 70px;
+    width:70px;
+    position: relative;
+    left:280px;
+    top:5px;
+    
+}
+
+
+.cont
+{
+    min-width: 0px;
+    
+}
+
+.red
+{
+    height:100px;
+    width: 100px;
+    background-color:red;
+    display: inline-block;
+    
+}
+.green
+{
+    height: 100px;
+    width:100px;
+    background-color:green;
+    display: inline-block;
+
+}
+.blue
+{
+    height:100px;
+    width:100px;
+    background-color:blue;
+    display: inline-block;
+}
+
+
+ .right p , .left p 
+{
+    font-size:2rem;
+}
+
+.div
+{
+    width:40%;
+    display:inline-block;
+}
+.right
+{
+    /* display: inline-block; */
+   width:40%;
+    background-color: aqua;
+    float:right;
+    
+}
+.left{
+    /* display: inline-block; */
+    width: 40%;
+    float: left;
+    background-color: cadetblue;
+    
+}
+
+
+.right > img , .left > img
+{
+    float:left;
+}
+.footer 
+{
+    clear:both;
+    background-color: blue;
+    text-align:center;
+}
+
+
+@media(min-width:1601px)
+{
+    body
+{
+    background-color: seagreen;
+}
+}
+
+@media(min-width:319px)and(max-width:480px)
+{
+    body
+{
+    background-color: lightsalmon;
+}
+}
+@media(min-width:481px)and(max-width:1200px)
+{
+    body
+    {
+        background-color: powderblue;
+    }
+
+}
+@media(min-width:1200px)and(max-width:1600px)
+{
+    body
+{
+    background-color: limegreen;
+}
+}

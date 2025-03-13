@@ -1,0 +1,31 @@
+Css selector hierarchy
+1>position-> the most last style would be applied if multiple style targerts same element.
+eg  li{
+    color:red;
+    color:blue;
+} //blue color is last so it will be applied
+
+2>specificity
+li{color: blue} //selects all list items in entire  -> least specific
+.class{color:red} // targets the class elements
+li[attribute] //target on elements with particular attribute 
+#idname //targets specific element with that id ->more specifice
+
+3> Type ->
+    external 
+    internal
+    inline
+
+4> !important
+the element style which has important is applied over others
+
+<extra>
+a element has multiple class separated by space. eg <class="firstclass secondclass">
+</extra>
+
+css selectros
+->.name{} ->class selectro
+->#name{} -> idSelector
+-> parent > child -> hierachy selector
+->.attribute.class#id -> selector chaining.
+

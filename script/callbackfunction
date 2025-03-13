@@ -1,0 +1,14 @@
+const greetuser=(name)=>
+{
+    console.log("Hello, "+name);
+    setTimeout(()=>console.log("bye",name),5000)
+}
+//greetuser("sudo");
+
+const convo=(name)=>
+{
+    console.log("Hello",name)
+    setTimeout(()=>console.log(`Hi ${name} I'm the doctor, how can i help you ?`),3000)
+    setTimeout(()=>console.log("You will be alright! Take these medicines. Take care"),3000)
+}
+convo("sudo")

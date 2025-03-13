@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-color:aquamarine ;
+        }
+@media(min-width:1601px)
+{
+    body
+{
+    background-color: seagreen;
+}
+}
+
+@media(min-width:319px)
+{
+    body
+{
+    background-color: lightsalmon;
+}
+}
+@media(min-width:481px)
+{
+    body
+    {
+        background-color: powderblue;
+    }
+
+}
+@media(min-width:1200px)
+{
+    body
+{
+    background-color: limegreen;
+}
+}
+.container
+{
+    display:flex;
+    gap:10px;
+    justify-content: space-between;
+    /* max-width: 1000px; */
+    border: 1px solid black;
+}
+
+ .item1 
+{
+    background-color:slateblue;
+    flex-basis: 200px;
+    flex-wrap: wrap;
+    
+}
+.item2 
+{
+    flex-basis: 200px;
+    background-color:chartreuse;
+    flex-shrink: 0;
+    
+
+}
+.item3 
+{
+    flex-basis:400px;
+   
+    background-color:cornsilk;
+    flex-shrink:0;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1"><p>Item1:200px</p></div>
+        <div class="item2"><p>Item2:200px</p></div>
+        <div class="item3"><p>Item3:400px</p></div>
+    </div>
+</body>
+</html>

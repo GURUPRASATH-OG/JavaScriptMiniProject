@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container
+        {
+            border:2px solid black;
+            display:flex;
+            height: 70vh;
+            align-items:center;
+        }
+    
+        .container > *
+        {
+            flex-basis: 100px;
+        }
+        .card1
+        {
+            align-self: flex-start;
+            background-color: aqua;
+
+            
+        }
+        .card2
+        {
+            align-self:flex-end;
+            background-color: red;
+        }
+        .card3
+        {
+            align-self:stretch;
+            background-color: blueviolet;
+        }
+        .card4
+        {
+            
+            background-color: pink;
+        }
+        .card5
+        {
+            background-color: chartreuse;
+        }
+        .card6
+        {
+            background-color: darksalmon;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card1">aqua Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio repellendus, soluta at molestiae commodi eaque fugiat odit quos dolore nam quam impedit iure ducimus sequi voluptates quaerat expedita officiis facilis!</div>
+        <div class="card2">red</div>
+        <div class="card3">voilet</div>
+        <div class="card4">pink</div>
+        <div class="card5">lightgreen</div>
+        <div class="card6">darksalmon</div>
+    </div>
+</body>
+</html>
