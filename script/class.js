@@ -126,11 +126,25 @@ class WorkingProfessional
 
 class CollegeStudent
 {
+    static TotalStudents=0
     constructor(name,age,year)
     {
+        
         this.name=name;
         this._age=age;
         this._year=year;
+        this.constructor.TotalStudents++;
+        this.constructor.attendance.push(name,age,year)
+    }
+    static attendance = []
+    static University ="Madras";
+    static  getTotalStudents()
+    {
+        return this.TotalStudents;
+    }
+    static getAttendance()
+    {
+        return this.attendance;
     }
     about()
     {
@@ -165,3 +179,43 @@ class CollegeStudent
         this.std=std;
     }
 }
+class Flipkart
+{
+    static cart =[];
+    static totalItems=0;
+    static totalCost=0;
+    constructor(product,qty,price)
+    {
+        this.product=product;
+        this.price=price;
+        this.qty=qty;
+        this.constructor.totalItems++;
+        this.constructor.cart.push(product,qty,price)
+        this.constructor.totalCost+=price*qty;
+    }
+    static showCart()
+    {
+        return this.cart;
+    }
+    static getTotalItemss()
+    {
+        return this.totalItems;
+    }
+    static getTotalCost()
+    {
+        return this.totalCost;
+    }
+}
+
+const student1=new CollegeStudent("sudo",20,3);
+const student2=new CollegeStudent("sudo",20,3);
+const student3=new CollegeStudent("sudo",20,3);
+console.log(CollegeStudent.getTotalStudents())
+console.log(CollegeStudent.getAttendance());
+const item1 = new Flipkart("biscuits",4,100);
+const item2 = new Flipkart("Fruits",3,150);
+const item3 = new Flipkart("Almonds",1,200);
+const item4 = new Flipkart("Snacks",5,50);
+console.log(Flipkart.getTotalItemss());
+console.log(Flipkart.showCart());
+console.log(Flipkart.getTotalCost());
