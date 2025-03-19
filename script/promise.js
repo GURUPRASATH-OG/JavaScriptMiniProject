@@ -41,3 +41,50 @@ orderCoffee.then((msg)=>
     )
 }
 ).then((bill)=>console.log(bill)).catch((err)=>console.log(err)).finally(()=>console.log("Thank you for visiting."))
+
+const countDown= (duration)=>
+{
+    return new Promise((resolve,reject)=>
+    {
+        setTimeout(()=>
+        {
+            resolve()
+        },duration)
+    })
+}
+countDown(1500).then(
+    ()=>
+        {
+            console.log(3)
+            return countDown(1500)
+        })
+        .then(
+            
+            ()=>
+                {
+                    console.log(2)
+                    return countDown(1500)
+                }
+        )
+        .then(
+            ()=>
+                {
+                    console.log(1)
+                    return countDown(15000)
+                }
+        )
+        .then(
+            ()=>
+            {
+                console.log("Happy New Year")  
+                
+            }
+        )
+        console.log("CountDown Begins")
+async function asyncfunc()
+{
+    const cofee = await orderCoffee 
+    console.log("async ",cofee)
+}
+
+asyncfunc()

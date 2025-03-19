@@ -1,0 +1,60 @@
+*
+{
+    padding:0px;
+    margin:0px;
+    
+}
+
+body > .header 
+{
+    
+    max-width:500px;
+    margin:10px auto;
+    
+}
+.header > .heading
+{
+    color:rgb(0, 0, 0);
+    
+}
+.container
+{
+    max-width:600px;
+    margin:0 auto;
+    background-color: powderblue;
+}
+.input-form
+{
+    max-width:500px; 
+    margin: 10px auto;
+    align-self: center;
+}
+.input-form > .data
+{
+    margin:15px auto;
+    padding: 5px 10px;
+    outline:none;
+}
+.food-container
+{
+    /* background-color: powderblue; */
+    max-width:600px;
+    margin: 10px, auto;
+    position: relative;
+    padding: 0px 400px;
+    
+}
+.food-container > .food-list
+{
+    list-style: none;
+    border: 1px solid black;
+    color:rgb(38, 224, 21);
+    text-align:center;
+    margin: 10px auto;
+    font-weight: 900;
+    padding:5px;
+}
+.food-container > .food-list > li{
+    list-style: circle;
+    border:2px solid plum;
+}
