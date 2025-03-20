@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="calculator-big-screen">
+        <input type="text"name ="number-box"id="number-box" class="number-box" minlength="1" maxlength="15">
+        <div class="calculator-container">
+            <button class="clear-btn">AC</button>
+            <button class="backspace-btn"><i class="fas fa-backspace"></i></button>
+            <button class="btn"data-set="%">%</button>
+            <button class="btn operation-btn" data-set="/"><i class="fa-solid fa-divide"></i></button>
+        </div>
+        <div class="calculator-container">
+            <button class="btn" data-set="1">1</button>
+            <button class="btn" data-set="2">2</button>
+            <button class="btn" data-set="3">3</button>
+            <button class="btn operation-btn"data-set="*">x</button>
+        </div>
+
+        <div class="calculator-container">
+            <button class="btn" data-set="4">4</button>
+            <button class="btn" data-set="5">5</button>
+            <button class="btn" data-set="6">6</button>
+            <button class="btn operation-btn"data-set="-">-</button>
+        </div>
+
+        <div class="calculator-container">
+            <button class="btn" data-set="7">7</button>
+            <button class="btn" data-set="8">8</button>
+            <button class="btn" data-set="9">9</button>
+            <button class="btn operation-btn"data-set="+">+</button>
+        </div>
+        <div class="calculator-container">
+            <button class="btn" data-set="0">0</button>
+            <button class="btn" data-set=".">.</button>
+            <button class="equal-to"data-set="=">=</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

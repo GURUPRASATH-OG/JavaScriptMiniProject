@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic");
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Poppins",sans-serif;
+}
+body
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: wheat;
+}
+.container
+{
+    margin-right: 25%;
+    padding:2rem 7rem;
+    border-radius: 14px;
+    background: #fff;
+    box-shadow: 0 5px 10px (0,0,0,0.1);
+}
+.result_images
+{
+    display:flex;
+    column-gap: 7rem;
+}
+.result_images img
+{
+    width:100px;
+}
+
+.cpu_result img 
+{
+    /* transform:rotate(-90deg)rotateY(180deg); */
+    transform: rotateY(180deg);
+    
+}
+.user_result .user-rock img
+{
+    transform: rotate(180deg);
+}
+.container
+{
+    font-weight: 500;
+    color:rgb(220,20,60);
+}
+.cpu_result ,.user_result p
+{
+    color:rgb(243, 23,90);
+    font-size: 1.235rem;
+    margin-top: 1rem;
+    pointer-events:none;
+    text-align: center;
+}
+.user_result img
+{
+    transform: rotate(90deg);
+}
+.result
+{
+    text-align: center;
+    font-size: 2rem;
+    color: #7d2ae8;
+    margin-top:1.5rem;
+
+}
+.option_image img
+{
+    width:50px;
+}
+.option_images
+{
+    display: flex;
+    align-items:center;
+    margin-top:2.5rem;
+    justify-content:space-between;
+    
+    
+}
+.option_image img 
+{
+    pointer-events: none;
+}
+.option_image
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* pointer-events: none; */
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+.option_image:hover
+{
+    opacity: 1;
+}
+.option_image.active
+{
+    opacity: 1;
+}
+.option_image p
+{
+    color:#7d2ae8;
+    font-size: 1.235rem;
+    margin-top: 1rem;
+    pointer-events:none;
+}
+.score-board
+{
+
+    padding:2rem 7rem;
+    border-radius: 14px;
+    background: #fff;
+    box-shadow: 0 5px 10px (0,0,0,0.1);
+    position:absolute;
+    height:50vh;
+    top:20%;
+    left: 62%;
+}
+.score-board h1
+{
+    color:#1bdb35b4;
+    font-weight: 600;
+}
+.score-board p
+{
+    font-size: 20px;
+    padding: 50px;
+    text-align: center;
+    color:#f511cb;
+}
+.container.start .user_result
+{
+    transform-origin:left;
+    animation: userShake 0.7s ease infinite;
+}
+@keyframes userShake
+{
+    50%
+    {
+        transform:rotate(30deg);
+    }
+}
+.container.start .cpu_result
+{
+    transform-origin: right;
+    animation: cpuShake 0.7s ease infinite;
+}
+@keyframes cpuShake
+{
+    50%
+    {
+        transform:rotate(-40deg);
+    }
+}
