@@ -7,7 +7,7 @@ This repo is a collection of **fun and interactive JavaScript projects** that sh
 🎨 **Styled with**: CSS for modern UI  
 ⚡ **Features**: Dynamic user interactions, animations, and event-driven functionality  
 
-![JavaScript](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnloNGFxY3ZsYzM0dnJiNzlqem54bGtweXp5aGVnbW83enc2MGFoZSZlcD12MV9naWZzX3RyZW5kaW5nJmN0PWc/tHIRLHtNwxpjIFqPdV/giphy.gif)  
+![JavaScript](https://media.tenor.com/2uyENRmiUt0AAAAC/coding.gif)  
 
 ---
 
@@ -24,7 +24,7 @@ This repo is a collection of **fun and interactive JavaScript projects** that sh
 📷 **Preview**:  
 🔗 [Live Demo](https://guruprasath-og.github.io/JavaScriptMiniProject/color-generator.html)  
 
-![Color Generator](https://media.giphy.com/media/3o6Zt481isNVuQI1l6/giphy.gif)  
+![Color Generator](https://media.giphy.com/media/26AHONQ79FdWZhAI0/giphy.gif)  
 
 ---
 
@@ -39,7 +39,7 @@ This repo is a collection of **fun and interactive JavaScript projects** that sh
 📷 **Preview**:  
 🔗 [Live Demo](https://guruprasath-og.github.io/JavaScriptMiniProject/timer.html)  
 
-![Timer App](https://media.giphy.com/media/l46CbUgz4p0ddnCR2/giphy.gif)  
+![Timer App](https://media.giphy.com/media/xT9Igv9lUNpDNRv3zy/giphy.gif)  
 
 ---
 
@@ -54,7 +54,7 @@ This repo is a collection of **fun and interactive JavaScript projects** that sh
 📷 **Preview**:  
 🔗 [Live Demo](https://guruprasath-og.github.io/JavaScriptMiniProject/rock-paper-scissors.html)  
 
-![Rock Paper Scissors](https://media.giphy.com/media/3o7TKSjRrfIPjeiVy8/giphy.gif)  
+![Rock Paper Scissors](https://media.giphy.com/media/l4FGJXgxmEeI8x8CI/giphy.gif)  
 
 ---
 
@@ -69,7 +69,7 @@ This repo is a collection of **fun and interactive JavaScript projects** that sh
 📷 **Preview**:  
 🔗 [Live Demo](https://guruprasath-og.github.io/JavaScriptMiniProject/calculator.html)  
 
-![Calculator](https://media.giphy.com/media/xUOrw5LIxb8q9F2pPa/giphy.gif)  
+![Calculator](https://media.giphy.com/media/l0HlNQ03J5JxX6lva/giphy.gif)  
 
 ---
 
