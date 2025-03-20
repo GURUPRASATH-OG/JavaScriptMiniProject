@@ -6,7 +6,7 @@ Welcome to my **JavaScript Mini Projects** repository! 🏗️ This repo is a co
 🎨 **Styled with**: CSS for modern UI  
 ⚡ **Features**: Dynamic user interactions, animations, and event-driven functionality  
 
-![JavaScript](https://media.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.gif)  
+![JavaScript](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnloNGFxY3ZsYzM0dnJiNzlqem54bGtweXp5aGVnbW83enc2MGFoZSZlcD12MV9naWZzX3RyZW5kaW5nJmN0PWc/tHIRLHtNwxpjIFqPdV/giphy.gif)  
 
 ---
 
@@ -21,7 +21,9 @@ Welcome to my **JavaScript Mini Projects** repository! 🏗️ This repo is a co
 ✔️ Smooth UI animations 🎨  
 
 📷 **Preview**:  
-![Color Generator](https://media.giphy.com/media/fAnzw6YK33jMwzp5wp/giphy.gif)  
+https://guruprasath-og.github.io/JavaScriptMiniProject/
+![Color Generator](https://guruprasath-og.github.io/JavaScriptMiniProject/) 
+![color flipper](https://media.giphy.com/media/G3lxvBMhGu53y/giphy.gif?cid=ecf05e47qjt5i9kbgz5w4o21u37mvz4dzyn8vb3fjbxqqwm8&ep=v1_gifs_search&rid=giphy.gif&ct=g)
 
 ---
 
@@ -34,7 +36,8 @@ Welcome to my **JavaScript Mini Projects** repository! 🏗️ This repo is a co
 ✔️ Alert when time runs out 🔔  
 
 📷 **Preview**:  
-![Timer App](https://media.giphy.com/media/l4FGuhL4U2WyjdkaY/giphy.gif)  
+https://guruprasath-og.github.io/JavaScriptMiniProject/
+![Timer App](https://media.giphy.com/media/3orieMd0OXjo8YU7GU/giphy.gif?cid=790b76118k28in8mwixm7ejkcjj9qfifrj70s18y3qo4nv80&ep=v1_gifs_search&rid=giphy.gif&ct=g)  
 
 ---
 
@@ -47,7 +50,8 @@ Welcome to my **JavaScript Mini Projects** repository! 🏗️ This repo is a co
 ✔️ Keeps track of **win/loss records** 📊  
 
 📷 **Preview**:  
-![Rock Paper Scissors](https://media.giphy.com/media/l3q2K5jinAlChoCLS/giphy.gif)  
+https://guruprasath-og.github.io/JavaScriptMiniProject/
+![Rock Paper Scissors](https://media.giphy.com/media/3osxYfP8SJVa9XpVyo/giphy.gif?cid=790b76112xmyu99om4g17rdyji9kzzggxuljykvs5p4ubni5&ep=v1_gifs_search&rid=giphy.gif&ct=g)  
 
 ---
 
@@ -60,7 +64,8 @@ Welcome to my **JavaScript Mini Projects** repository! 🏗️ This repo is a co
 ✔️ Works on both **desktop & mobile** 📱💻  
 
 📷 **Preview**:  
-![Calculator](https://media.giphy.com/media/fxzQFQSh8dNk3OU6PZ/giphy.gif)  
+https://guruprasath-og.github.io/JavaScriptMiniProject/
+![Calculator](https://media.giphy.com/media/l2JdZ6jQkHjwlCDkI/giphy.gif?cid=790b761184ocxn5brxi66a2nlouvm94ux7b6n3o9sf43tr21&ep=v1_gifs_search&rid=giphy.gif&ct=g)  
 
 ---
 
