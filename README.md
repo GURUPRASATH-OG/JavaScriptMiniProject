@@ -52,7 +52,7 @@ This repo is a collection of **fun and interactive JavaScript projects** that sh
 ✔️ Keeps track of **win/loss records** 📊  
 
 📷 **Preview**:  
-🔗 [Live Demo](https://guruprasath-og.github.io/JavaScriptMiniProject/)  
+🔗 [Live Demo](https://guruprasath-og.github.io/JavaScriptMiniProject/RockPaperScissorGame)  
 
 ![Rock Paper Scissors](https://media.giphy.com/media/3osxYfP8SJVa9XpVyo/giphy.gif?cid=790b76112xmyu99om4g17rdyji9kzzggxuljykvs5p4ubni5&ep=v1_gifs_search&rid=giphy.gif&ct=g)  
 
@@ -67,7 +67,7 @@ This repo is a collection of **fun and interactive JavaScript projects** that sh
 ✔️ Works on both **desktop & mobile** 📱💻  
 
 📷 **Preview**:  
-🔗 [Live Demo](https://guruprasath-og.github.io/JavaScriptMiniProject/)  
+🔗 [Live Demo](https://guruprasath-og.github.io/JavaScriptMiniProject/calculatorapp)  
 
 ![Calculator](https://media.giphy.com/media/l2JdZ6jQkHjwlCDkI/giphy.gif?cid=790b761184ocxn5brxi66a2nlouvm94ux7b6n3o9sf43tr21&ep=v1_gifs_search&rid=giphy.gif&ct=g)  
 
